@@ -2,13 +2,95 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+       .Subscribe-button{
+            background-color: rgb(194, 0, 0);
+            color:white;
+            height:36px;
+            width: 107px;
+            border:none;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+        .Subscribe-button:hover{
+            opacity: 0.7;
+        }
+        .Subscribe-button:active{
+            opacity: 0.4;
+        }
+        .join-button{
+            background-color: white;
+            color: rgb(41, 118,211);
+            height: 36px;
+            width: 62px;
+            border-radius: 2px;
+            border-color:rgb(41, 118,211) ;
+            font-size: 18px;
+            border-width: 2px;
+            border-style: solid;
+            cursor: pointer;
+            margin-left:10px;
+        }
+        .join-button:hover{
+            background-color:rgb(41, 118,211);
+            color:white
+        }
+        .join-button:active{
+            opacity: 0.7;
+        }
+        .tweet-button{
+            background-color: rgb(2, 158, 255);
+            color: white;
+            height: 36px;
+            width: 70px;
+            border-radius:18px;
+            font-size: 17px;
+            font-weight:bold;
+            border: none;
+            cursor: pointer;
+            margin-left:10px;
+        }
+        .tweet-button:hover{
+            box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.20);
+        }
+        .linked{
+            background-color: rgb(10, 102, 194);
+            border: none;
+            color: white;
+            height: 36px;
+            width: 220px;
+            font-weight:bold;
+            border-radius: 18px;
+            font-size: 14px;
+            cursor: pointer; 
+            margin-right: 10px;
+        }
+        .link{
+            background-color:white;
+            border-color:rgb(10, 102, 194);
+            border-width:2px;
+            color: rgb(10, 102, 194);
+            font-weight: bold;
+            border-radius: 18px;
+            font-size: 15px;
+            height: 36px;
+            width: 70px;
+            border-style:solid;
+            cursor:pointer;
+
+        }
+    </style>
 </head>
 <body>
-    <h1>this is my heading</h1>
-    <p>This is a updated note from fix branch</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut labore at iusto corrupti aperiam explicabo numquam, obcaecati provident harum dolorum totam repudiandae repellendus voluptatum amet eligendi laborum aliquid sapiente impedit.</p>
+  <button class="Subscribe-button">SUBSCRIBE</button>
+  
+  <button class="join-button" >JOIN</button>
+  
+  <button class="tweet-button">Tweet</button>
+  <br><br>
+  <button class="linked">Apply on company website</button>
+  <button class="link">Save</button>
 </body>
 </html>
